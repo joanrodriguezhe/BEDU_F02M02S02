@@ -1,0 +1,11 @@
+➜  src git:(master) ✗ chmod 754 inicio.sh  
+➜  src git:(master) ✗ chmod 777 main.js  
+➜  src git:(master) ✗ ll
+    total 8
+    -rwxr-xr-- 1 shepe shepe 30 feb 17 18:57 inicio.sh
+    -rwxrwxrwx 1 shepe shepe 63 feb 17 18:57 main.js
+➜  src git:(master) ✗ chmod 664 main.js inicio.sh 
+➜  src git:(master) ✗ ll
+    total 8
+    -rw-rw-r-- 1 shepe shepe 30 feb 17 18:57 inicio.sh
+    -rw-rw-r-- 1 shepe shepe 63 feb 17 18:57 main.js
