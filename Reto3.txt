@@ -1,0 +1,6 @@
+touch jose_rodriguez.html
+sudo chown root:root jose_rodriguez.html
+sudo chmod 644 jose_rodriguez.html
+sudo mkdir /var/www/html/jose_rodriguez
+sudo cp jose_rodriguez.html /var/www/html/jose_rodriguez/index.html
+sudo rm jose_rodriguez.html
