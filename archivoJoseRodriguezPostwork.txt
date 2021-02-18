@@ -1,0 +1,3 @@
+Archivo copiado con scp al servidor como parte del postwork.
+
+scp -i ~/.ssh/ec2-bedu-bkfun.pem ./archivoJoseRodriguezPostwork.txt ubuntu@ec2-34-210-76-184.us-west-2.compute.amazonaws.com:/home/ubuntu
